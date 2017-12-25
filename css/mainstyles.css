@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: "Open Sans";
+	margin: 0; 
+	padding: 0;
+	top:0;
+
+}
+
+h1,h2{
+	font-family: "Montserrat"
+}
+
+img.logo{
+	margin:auto;
+	display: block;
+}
+.artist{
+	width: 50%
+}
+.artist img{
+	width: 100%;
+	float: left;
+	margin-right: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black
+}
+
+.active a{
+	color: tomato;
+}
+li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 10px;
+	
+}
+
+nav{
+	text-align: center;
+	margin-bottom: 10px;
+	border-bottom: solid thin tomato;
+	
+}
+
+h1 {
+	text-align: center
+}
+
+.subnav a{
+	text-decoration: none;
+	color:orange;
+}
+
+.contact{
+	background-color:black
+	
+}
+.contact li{
+	color:white;
+	font-size: 0.8em;
+}
+.icon{
+	font-size:3em;
+	color:Tomato
+}
+.main-content{
+	max-width: 1024px;
+	margin:auto
+}
+
+footer{
+	margin-top:100px;
+	background-color: black;
+	color:white;
+	width: 100%;
+	font-size: 0.8em;
+	padding:10px;
+	text-align: center
+}
+
+.fa-lg{
+	color:white
+}
