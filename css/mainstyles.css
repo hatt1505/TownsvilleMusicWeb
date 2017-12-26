@@ -5,9 +5,9 @@ body{
 	font-family: "Open Sans";
 	margin: 0; 
 	padding: 0;
-	top:0;
 
 }
+
 
 h1,h2{
 	font-family: "Montserrat"
@@ -58,7 +58,8 @@ h1 {
 }
 
 .contact{
-	background-color:black
+	background-color:black;
+	padding:1px
 	
 }
 .contact li{
@@ -84,6 +85,7 @@ footer{
 	text-align: center
 }
 
-.fa-lg{
-	color:white
+.fa-2x{
+	color:white;
+	margin-right:30px
 }
