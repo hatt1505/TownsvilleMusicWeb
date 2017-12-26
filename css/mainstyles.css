@@ -57,12 +57,24 @@ h1 {
 	color:orange;
 }
 
-.contact{
+
+header {
 	background-color:black;
-	padding:1px
+	padding:25px
+
 	
 }
-.contact li{
+
+header ul{
+	margin:0;
+	padding:0
+}
+header li{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%); 
+	float:left;
+
 	color:white;
 	font-size: 0.8em;
 }
