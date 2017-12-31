@@ -1,11 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
+* {
+  box-sizing: border-box;
+}
 
 body{
 	font-family: "Roboto";
 	margin: 0; 
 	padding: 0;
-	color: #7F3123
 
 }
 
@@ -17,8 +19,11 @@ h1,h2{
 img.logo{
 	margin:auto;
 	display: block;
-	clear:both
+	clear:both;
+	margin-top:50px
+
 }
+
 .artist{
 	width: 50%
 }
@@ -32,6 +37,9 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	text-decoration: none;
+}
 nav a {
 	color: black;
 }
@@ -42,7 +50,8 @@ nav a {
 li{
 	list-style-type: none;
 	display: inline-block;
-	margin:0 10px;
+	margin-left:10px;
+	
 	
 }
 
@@ -63,29 +72,27 @@ h1 {
 
 
 header {
+	font-size: 0.8em;
 	background-color:black;
-	
-	padding:25px
+	position: fixed;
+ 	top: 0;
+  	width: 100%;
+	overflow: hidden;
 
 	
 }
-
-header ul{
-	margin:0;
-	padding:0;
-	
 		
-}
+
 header li{
 
 	float:left;
-	
+	padding:10px;
 	position: relative;
-	top: 50%;
-	transform: translateY(-50%); 
-
+/*	top: 50%;
+	transform: translateY(-50%); */
 	color:white;
-	font-size: 0.8em;
+	vertical-align: middle
+	
 }
 .icon{
 	font-size:3em;
@@ -103,7 +110,8 @@ footer{
 	width: 100%;
 	font-size: 0.8em;
 	padding:10px;
-	text-align: center
+	text-align: center;
+	display: table
 }
 
 .fa-2x{
@@ -128,18 +136,18 @@ footer{
 }
 
 header input[type=text] {
-padding: 5px;
-  margin-top: 8px;
-  font-size: 1em;
+ padding: 6px;
+  font-size: 10px;
   border: none;
+
 }
 
 header .search-container button {
   float: right;
-  margin-top: 8px;
+	padding: 6px 10px;
 	margin-left:0;
   background: tomato;
-  font-size: 17px;
+  font-size: 10px;
   border: none;
   cursor: pointer;
 }
