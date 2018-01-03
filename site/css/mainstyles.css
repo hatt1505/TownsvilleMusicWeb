@@ -81,6 +81,7 @@ header {
  	top: 0;
   	width: 100%;
 	overflow: hidden;
+	z-index: 99999;
 
 	
 }
@@ -264,3 +265,4 @@ table td {
 	overflow: hidden;
     height: 200px;
 }
+
