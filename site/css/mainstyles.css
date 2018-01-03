@@ -259,3 +259,8 @@ margin:0 auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+table td {
+	overflow: hidden;
+    height: 200px;
+}
