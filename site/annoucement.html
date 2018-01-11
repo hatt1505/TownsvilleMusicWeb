@@ -38,19 +38,28 @@
 	<table width="100%" border="1">
   <tbody>
     <tr>
-      <td>&nbsp;</td>
       <td>
-		  <p>
+		<img src="images/announcements/TCBlogo160160.jpg" alt="pic1">
+		<button onclick="myFunction()">Try it</button></td>
+     <td>
+		
+		 <div id="myDIV">
+	 <p>
       Invitation to our members  <br>
       Need more people who can sing or play music. <br>
       Preference for an artist to sing a medley of old time favorites. <br>
       Mass starts at 6pm and finishes about 10 to 7<br>
 	  To take part, please call Merle Trembath 0418882633 anytime
-	  </p></td>
+	  </p>
+		 </div></td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;Looking to book performers/musicians/entertainers for a family friendly festival at the Ingham Tyto Wetlands on the 23rd of May<br>
+      <td>
+		<img src="images/announcements/Stokes.jpg" alt="pic2">
+		<button onclick="myFunction()">Try it</button></td>
+		
+		<div id="myDiv1">
+		<td>&nbsp;Looking to book performers/musicians/entertainers for a family friendly festival at the Ingham Tyto Wetlands on the 23rd of May<br>
 	   Looking for appropriate acts. We are looking for a wide variety of bands and entertainers from our local and surrounding areas. <br>
   <br>
       Deadline for initial submissions 29 March 2015. <br>
@@ -60,9 +69,11 @@
       <p>Visit rouvasacademyofsinging.com.au<br>
         or phone John 0404 044 823<br>
       </p></td>
+		</div>
     </tr>
     <tr>
-      <td>&nbsp;</td>
+      <td>
+		  <img src="images/announcements/jean01.jpg" alt="pic3"></td>
       <td>&nbsp;We need a part-time Office Administrator. <br>
         This is a long-term, part time, part-paid position (all conditions are negotiable). <br>
         Experience with not-for profit organisations would be an advantage. <br>
@@ -76,14 +87,25 @@
         Blues/jazz songs mostly.<br>
         -- Please email Ada Knowles --<br>
         <br>
-        
-      </li>
-    </ul>
-</ul>
-<blockquote></td>
+        </td>
     </tr>
   </tbody>
 </table>
+	
+
+
+This is my DIV element.
+
+	<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
 
 </body>
 </html>
