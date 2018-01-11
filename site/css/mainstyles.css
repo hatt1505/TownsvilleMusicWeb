@@ -262,9 +262,9 @@ margin:0 auto;
   position: absolute;
   overflow: hidden;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 50%;  
   -ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 table td {
@@ -272,7 +272,6 @@ table td {
     height: 200px;
 }
 
-<<<<<<< HEAD
 
 .row{
 	margin:20px 0 0 0;
@@ -283,11 +282,11 @@ img.center{
 	display: block
 }
 
-
 #myDIV {
     width: 100%;
     padding: 50px 0;
     text-align: center;
     background-color: lightblue;
-	margin-top: 20px;}
+	margin-top: 20px;
+}
 
