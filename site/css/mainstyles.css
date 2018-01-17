@@ -8,6 +8,12 @@ body{
 
 }
 
+.membership-form{
+	width: 700px;
+	padding: 20px;
+	margin: auto;
+	border: thin black solid;
+}
 
 h1,h2{
 	font-family: "Montserrat"
@@ -17,7 +23,7 @@ img.logo{
 	margin:auto;
 	display: block;
 	clear:both;
-	margin-top:50px;`
+	margin-top:50px;
 	margin-bottom:10px;
 
 }
@@ -46,7 +52,7 @@ nav a {
 .active a{
 	color: tomato;
 }
-li{
+nav li, footer li{
 	list-style-type: none;
 	display: inline-block;
 	margin-left:10px;
@@ -81,6 +87,7 @@ header {
  	top: 0;
   	width: 100%;
 	overflow: hidden;
+	z-index: 99999;
 
 	
 }
@@ -202,29 +209,35 @@ button a{
 	background: #21618C
 }
 .member a:hover{
-	color :tomato
+	color :white
 }
-.nav-button button{text-align: center;
+
+.nav-button button{
+	text-align: center;
     font-size: 16px;
-    margin: 4px 2px;
-	padding: 12px 60px; 
+	display: inline-block;
+    margin: 4px 0;
+	padding: 12px 0; 
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
 	clear:left;
-
+	width: 250px;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-	border:none;}
+	border:none;
+}
 
+.nav-button button:hover{
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 .featured{
-	max-width: 600px;
+
 	margin-top:150px;
 }
 
 .container {
 margin:0 auto;
   position: relative;
-  width: 50%;
 }
 
 .image {
@@ -255,7 +268,76 @@ margin:0 auto;
   position: absolute;
   overflow: hidden;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 50%;  
   -ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+table td {
+	overflow: hidden;
+
+}
+
+
+.row{
+	margin:20px 0 0 0;
+}
+
+img.center{
+	margin:0 auto;
+	display: block
+}
+
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+	margin-top: 20px;
+}
+
+
+#address{
+margin-bottom: 20px;	
+}
+	
+label{
+	
+	float:left;
+	width:12em;
+	text-align: left;
+	
+}
+
+.street{
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+#city,#State,#pin-code{
+	margin-left: 12em
+}.fortysix{
+	margin-left: 12em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  padding: 10px;
+}
+.grid-item {
+	border-bottom: solid thin rgba(85,85,85,1.00);
+  padding: 20px;
+  text-align: left;
+}
+
+.register-button{
+	text-align: center;
+    padding-top:10px;
+	padding-bottom: 10px;
+		
+}
+.paypal{
+	padding:8px
 }
