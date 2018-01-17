@@ -46,7 +46,7 @@ nav a {
 .active a{
 	color: tomato;
 }
-nav li{
+nav li, footer li{
 	list-style-type: none;
 	display: inline-block;
 	margin-left:10px;
