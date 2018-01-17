@@ -8,6 +8,12 @@ body{
 
 }
 
+.membership-form{
+	width: 700px;
+	padding: 20px;
+	margin: auto;
+	border: thin black solid;
+}
 
 h1,h2{
 	font-family: "Montserrat"
@@ -290,3 +296,28 @@ img.center{
 	margin-top: 20px;
 }
 
+
+#address{
+margin-bottom: 20px;	
+}
+	
+label{
+	
+	float:left;
+	width:12em;
+	text-align: left;
+	
+}
+
+.street{
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+#city,#State,#pin-code{
+	margin-left: 12em
+}
+
+.46-60{
+	margin-left: 12em;
+}
