@@ -316,8 +316,19 @@ label{
 
 #city,#State,#pin-code{
 	margin-left: 12em
-}
-
-.46-60{
+}.fortysix{
 	margin-left: 12em;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  padding: 10px;
+}
+.grid-item {
+	border-bottom: solid thin rgba(85,85,85,1.00);
+  padding: 20px;
+  text-align: left;
+}
+
