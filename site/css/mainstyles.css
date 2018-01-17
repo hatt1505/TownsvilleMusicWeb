@@ -275,7 +275,7 @@ margin:0 auto;
 
 table td {
 	overflow: hidden;
-    height: 200px;
+
 }
 
 
@@ -332,3 +332,12 @@ label{
   text-align: left;
 }
 
+.register-button{
+	text-align: center;
+    padding-top:10px;
+	padding-bottom: 10px;
+		
+}
+.paypal{
+	padding:8px
+}
