@@ -309,10 +309,17 @@ label{
 	
 }
 
+
+
 .street{
 	margin-bottom: 20px;
 	margin-right: 10px;
 }
+.main-content #location {
+	margin:0 auto;
+	display: block
+}
+
 
 #city,#State,#pin-code{
 	margin-left: 12em
@@ -340,4 +347,8 @@ label{
 }
 .paypal{
 	padding:8px
+}
+img.aboutus{
+	margin:0 auto;
+	display: block
 }
