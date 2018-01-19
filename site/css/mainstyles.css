@@ -323,8 +323,10 @@ label{
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
+	margin:auto;
 
   padding: 10px;
+	width:80%
 }
 .grid-item {
 	border-bottom: solid thin rgba(85,85,85,1.00);
@@ -340,4 +342,42 @@ label{
 }
 .paypal{
 	padding:8px
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.column img{
+	width: 100%
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+	color: white;}
+
+.icon{
+	margin-left:10px
 }
