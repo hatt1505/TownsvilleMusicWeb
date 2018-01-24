@@ -2,7 +2,17 @@
 /* CSS Document */
 @import 'http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900';
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	margin-left: 0px;
+}
+#QueenslandGovernment {
+/*
+	width: 90%;
+	float: right;
+*/
+	overflow: auto;
+	margin-top:30px
+		
 }
 
 body{
@@ -23,9 +33,28 @@ h1,h2{
 	font-family: "Montserrat"
 }
 
+
+
 h3{
 
 	font-family: 'Roboto Condensed';}
+#TownsvilleCityCouncil {
+/*
+	width: 90%;
+	float: right;
+	
+*/
+	overflow: auto
+}
+
+.sponsor {
+	margin: 10px;
+	clear: both;
+	float: left;
+/*	overflow: auto*/
+}
+
+
 
 h4{
 	color:#21618C;
@@ -323,7 +352,7 @@ table td {
 
 	
 
-img.center{
+img.center {
 	margin:0 auto;
 	display: block
 }
@@ -537,6 +566,7 @@ img.aboutus{
 .grid-item button{
 	display: block
 }
+
 .fa {
 	margin-right: 3px;
 	display: block
@@ -560,3 +590,4 @@ aside{
 	margin-top: 185px;
 
 }
+
