@@ -738,4 +738,15 @@ input[type="radio"]{
 	.artist{
 		width:100%
 	}
+		nav ul li{
+		display: block
+	}
+	
+}
+@media only screen and (max-width: 768px){
+	.search-container{
+		display: none
+	}
+
+	
 }
