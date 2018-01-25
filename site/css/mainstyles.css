@@ -610,6 +610,9 @@ aside{
 	font-family: 'Sedgwick Ave';
 }
 
+#big-band .dropdown-content{
+	background: black
+}
 #big-band a{
 	color: antiquewhite
 }
@@ -691,9 +694,11 @@ nav li ul li {
 /*    text-align: right;*/
 }
 
+/*
 .dropdown-content a:hover {
     background-color: #ddd;
 }
+*/
 
 .dropdown:hover .dropdown-content {
 	display: block;}
@@ -716,6 +721,21 @@ nav li ul li {
 	color: tomato;
 }
 
-li.dropdown .active{
+li.dropdown.active{
 	color: tomato
+}
+/*
+
+.class{
+	margin-right: 20px;
+}
+*/
+
+input[type="radio"]{
+	margin: 0 10px 0 10px;
+}
+@media only screen and (max-width: 600px) {
+	.artist{
+		width:100%
+	}
 }
