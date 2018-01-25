@@ -103,9 +103,7 @@ nav a {
 	color: black;
 }
 
-.active a{
-	color: tomato;
-}
+
 nav li, footer li{
 	
 	display: inline-block;
@@ -591,12 +589,10 @@ img.aboutus{
 	grid-column-end: 3;
 	}
 
-/*
-.desc{
+.event-detail-desc{
 	width: 45%;
 
 }
-*/
 aside{
 	float:right;
 	margin-top: 185px;
@@ -711,4 +707,15 @@ nav li ul li {
     z-index: 1;
 	width: 100%;
 	overflow: auto
+}
+.ggmap{
+	float: right;
+	width: 50%
+}
+.active a{
+	color: tomato;
+}
+
+li.dropdown .active{
+	color: tomato
 }

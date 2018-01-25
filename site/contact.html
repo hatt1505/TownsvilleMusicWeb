@@ -38,18 +38,32 @@
 						
 	</header>
     <div id="logo"><a href="index.html"><img class="logo" src="images/logo.jpg" alt=""></a></div>
-<nav>
+	<nav>
 		<ul>
-			<li><a href="index.html">HOME</a></li>
-		  <li><a href="#">EVENTS</a></li>
+			<li><a class="active" href="index.html">HOME</a></li>
+			<li class="dropdown"><a href="about_us.html">ABOUT US</a>
+			<ul class="dropdown-content">
+				<li><a href="history.html">HISTORY</a></li>
+				<li><a href="sponsors.html">SPONSORS</a></li>
+<!--            <li><a href="#">Tutorial #3</a></li>-->
+          </ul>
+			  </li>
+				
+		  	<li class="dropdown">EVENTS
+			<ul class="dropdown-content">
+				<li><a href="current_events.html">CURRENT EVENTS</a></li>
+				<li><a href="upcoming_events.html">UPCOMING EVENTS</a></li>
+<!--            <li><a href="#">Tutorial #3</a></li>-->
+          </ul>
+			  </li>	
+			<li><a href="join_us.html">MEMBERSHIP</a></li>
+			<li><a href="artists.html">ARTISTS</a></li>
+			<li><a href="annoucement.html">ANNOUNCEMENTS</a></li>
+			<li><a href="advertise.html">ADVERT</a></li>
 			
-			<li><a href="#">ANNOUNCEMENTS</a></li>
-			<li><a href="#">MEMBERSHIP</a></li>
-			<li class="active"><a href="#">ARTISTS</a></li>
-			<li><a href="#">ABOUT US</a></li>
 			
 		</ul>
-	</nav>
+</nav>
 <div class="main-content">
   <img class="center" src="images/contact.jpg" alt="contact"/>
   <p>Based in Townsville, North Qld, the Music Centre presents concerts and workshops throughout the year, in a diverse range of genres including classical, jazz, folk, blues, world and contemporary music, featuring touring artists and locally-based professional and emerging artists.</p>
@@ -61,10 +75,13 @@
     </p>
   <p>General Contact:</p>
   <ul>
-    <li>Phone: 07 4724 2086</li>
+    <li><i class="fa fa-phone icon" aria-hidden="true"></i> 07 4724 2086</li>
     
-    <li>Email: admin@townsvillemusic.org.au</li>
+    <li><i class="fa fa-envelope icon" aria-hidden="true"></i> admin@townsvillemusic.org.au</li>
     </ul>
+	  <div class="ggmap">
+  <iframe id="location" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3766.2483264353855!2d146.8070194145092!3d-19.271564286976034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2ssg!4v1515663056131" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
   <form id="contactus">
     <label for="firstname">First Name:</label>
     <input id="firstname" type="text" name="firstname"><br>
@@ -74,14 +91,13 @@
     <input type="text" name="Email"><br><br>
     
     <label  for="Suggestion description">Suggestion description</label><br><br>
-    <textarea id="subject" name="subject" placeholder="Write something.." rows="15" cols="100"></textarea><br>
+    <textarea id="subject" name="subject" placeholder="Write something.." rows="15" cols="50"></textarea><br>
     <div class="register-button">
        <input type="reset" class="btn btn-default" value="Reset">
        <input type="submit" class="btn btn-primary" value="Submit">
      </div>
     
     </form>
-  <iframe id="location" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3766.2483264353855!2d146.8070194145092!3d-19.271564286976034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2ssg!4v1515663056131" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 	
 </body>
